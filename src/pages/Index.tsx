@@ -18,10 +18,7 @@ const Index = () => {
                 <span className="text-charcoal/80">проявленность</span>{' '}
                 и любовь к себе
               </h1>
-              <p className="font-body text-lg md:text-xl text-charcoal/70 leading-relaxed">
-                Без психологического образования, но с богатым опытом и глубокой практикой. 
-                Я соединяю психологию, философию и духовные концепции, опираясь на то, что работает именно для вас.
-              </p>
+              <p className="font-body text-lg md:text-xl text-charcoal/70 leading-relaxed">Объединяю инструменты из психологии, философии и духовных концепций, чтобы создать индивидуальных подход и безопасное пространство для вашего роста.</p>
               <Button 
                 size="lg" 
                 className="bg-accent-pink hover:bg-accent-pink/90 text-charcoal font-medium px-8 py-4 rounded-full font-body text-lg border border-accent-pink/20 shadow-lg hover:shadow-xl transition-all"
