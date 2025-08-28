@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,7 +61,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'warm-cream': '#E8D5C4',
+				'earthy-brown': '#8B5A3C',
+				'soft-beige': '#F8F4F0',
+				'charcoal': '#2C2C2C',
+				'gold': '#C5A572'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
