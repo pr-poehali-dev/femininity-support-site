@@ -75,27 +75,22 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Новый блок с лебедем */}
+      {/* Блок трансформации с фото и цитатой */}
       <section className="px-6 py-16 bg-gradient-to-br from-soft-pink/30 to-blush-cream">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
-              <div className="bg-white/90 p-8 rounded-2xl shadow-xl border border-soft-pink/20">
-                <blockquote className="font-heading text-2xl md:text-3xl font-light text-charcoal leading-relaxed text-center">
-                  "Я больше не гадкий утёнок.<br/>
-                  Я лебедь, который расправил крылья<br/>
-                  и летит туда, где ему хорошо."
-                </blockquote>
-              </div>
-            </div>
-            <div className="order-1 lg:order-2">
-              <div className="relative">
-                <img 
-                  src="/img/94c95834-0114-48c3-98b6-e72d26c7d280.jpg" 
-                  alt="Трансформация лебедя" 
-                  className="w-full h-auto object-cover rounded-2xl shadow-lg"
-                />
-              </div>
+        <div className="max-w-4xl mx-auto">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+            <img 
+              src="https://cdn.poehali.dev/files/43270a49-c109-4c30-a089-3ce2cacaba7d.jpg" 
+              alt="Трансформация" 
+              className="w-full h-[600px] object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-charcoal/30 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
+              <blockquote className="font-heading text-2xl md:text-3xl lg:text-4xl font-light text-white leading-tight text-center">
+                "Я больше не гадкий утёнок.<br/>
+                Я лебедь, который расправил крылья<br/>
+                и летит туда, где ему хорошо."
+              </blockquote>
             </div>
           </div>
         </div>
