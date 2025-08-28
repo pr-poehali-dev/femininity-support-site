@@ -59,10 +59,8 @@ const Index = () => {
               </p>
             </div>
             <div className="text-center bg-soft-pink/40 p-8 rounded-xl border border-soft-pink/30 shadow-md">
-              <p className="font-body text-xl font-medium text-charcoal">
-                Моя сила — в личном опыте и гибком мышлении. Я соединяю психологию, философию и духовные концепции, 
-                опираясь на то, что работает именно для вас.
-              </p>
+              <p className="font-body text-xl text-charcoal font-semibold">Показываю другим женщинам как пройти путь
+От я-недостаточна → Я-МОГУ ВСЁ</p>
             </div>
           </div>
         </div>
