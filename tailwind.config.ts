@@ -63,13 +63,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// Premium Pink Palette
-				'blush-cream': '#F8FAFC',
-				'soft-pink': '#F2E6F9', 
-				'rose-mist': '#FDF2F8',
-				'dusty-rose': '#E2E8F0',
-				'charcoal': '#374151',
-				'blush-pink': '#FDF2F8',
-				'accent-pink': '#11F5F9'
+				'blush-cream': '#FDF8F6',
+				'soft-pink': '#F4E8E6', 
+				'rose-mist': '#EDE0DD',
+				'dusty-rose': '#D4B5A7',
+				'charcoal': '#2F2B2A',
+				'blush-pink': '#E8C5BE',
+				'accent-pink': '#C89A92'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
