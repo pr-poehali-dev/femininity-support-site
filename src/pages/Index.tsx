@@ -18,13 +18,18 @@ const Index = () => {
                 <span className="text-charcoal/80">проявленность</span>{' '}
                 и любовь к себе
               </h1>
-              <p className="font-body text-lg md:text-xl text-charcoal/70 leading-relaxed">Объединяю инструменты из психологии, философии и духовных концепций, чтобы создать индивидуальных подход и безопасное пространство для вашего роста.</p>
-              <Button 
-                size="lg" 
-                className="bg-accent-pink hover:bg-accent-pink/90 text-charcoal font-medium px-8 py-4 rounded-full font-body text-lg border border-accent-pink/20 shadow-lg hover:shadow-xl transition-all"
-              >
-                Записаться на бесплатную диагностику
-              </Button>
+              <p className="font-body text-lg md:text-xl text-charcoal/70 leading-relaxed">
+                Без психологического образования, но с богатым опытом и глубокой практикой. 
+                Я соединяю психологию, философию и духовные концепции, опираясь на то, что работает именно для вас.
+              </p>
+              <a href="https://t.me/katy_kes" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  size="lg" 
+                  className="bg-accent-pink hover:bg-accent-pink/90 text-white font-medium px-8 py-4 rounded-full font-body text-lg border border-accent-pink/20 shadow-lg hover:shadow-xl transition-all"
+                >
+                  Записаться на бесплатную диагностику
+                </Button>
+              </a>
             </div>
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl border-8 border-white/50">
@@ -47,61 +52,128 @@ const Index = () => {
           </h2>
           <div className="space-y-8">
             <div className="bg-white/80 backdrop-blur p-8 rounded-2xl shadow-lg border border-soft-pink/20">
-              <p className="font-body text-lg text-charcoal/90 leading-relaxed mb-6">Я родилась чувствительной девочкой, которая слишком рано повзрослела из-за проблем зависимостей в семье.  
-
-Почти 20 лет я жила в ощущении собственной недостаточности.
-Позже я столкнулась с созависимостью в отношениях и выбором мужчин, рядом с которыми счастье было невозможно. Кризис стал точкой дна. Я закопала себя в мысли о том, что не создана для этого мира. Но именно тогда начался мой путь вверх.
-
-Я прошла терапию, курсы, изучала психологию, философию, духовные практики. Но главное — я научилась смотреть на каждую проблему с разных сторон. Из этого сложилась моя собственная философия: не важно, во что ты веришь — важно, помогает ли эта вера?</p>
-              <p className="font-body text-lg text-charcoal/90 leading-relaxed">Сегодня Я-ЖЕНЩИНА, которая обрела непоколебимую веру в себя. 
-
-Никто и никогда не заставит меня усомниться в собственной ценности, потому что я сама свой главный фанат. </p>
+              <p className="font-body text-lg text-charcoal/90 leading-relaxed mb-6">
+                Я выросла девочкой, которая слишком рано взяла на себя роль взрослой, жила в семье с 
+                зависимостями и созависимостью, выбирала мужчин, с которыми не могла быть счастлива. 
+                Я считала себя недостаточной, сомневалась в себе и боялась быть неудобной для мира.
+              </p>
+              <p className="font-body text-lg text-charcoal/90 leading-relaxed">
+                Но через путь ошибок, поисков и разных практик я научилась принимать свою уникальность, 
+                нашла опору внутри себя, обрела веру, научилась справляться с трудностями и теперь живу, 
+                раскрываясь как женщина и помогая другим делать то же самое.
+              </p>
             </div>
-            <div className="text-center bg-soft-pink/40 p-8 rounded-xl border border-soft-pink/30 shadow-md">
-              <p className="font-body text-xl text-charcoal font-semibold">Показываю другим женщинам как пройти путь
-От я-недостаточна → Я-МОГУ ВСЁ</p>
+            
+            {/* Яркий блок - разделен на две строки */}
+            <div className="text-center bg-gradient-to-r from-accent-pink/20 to-dusty-rose/20 p-8 rounded-xl border-2 border-accent-pink/30 shadow-lg">
+              <p className="font-heading text-2xl md:text-3xl font-bold text-charcoal leading-tight">
+                Показываю другим женщинам как пройти путь<br/>
+                <span className="text-accent-pink">От я-недостаточна → Я-МОГУ ВСЁ</span>
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* С какими запросами ко мне приходят */}
+      {/* Новый блок с лебедем */}
+      <section className="px-6 py-16 bg-gradient-to-br from-soft-pink/30 to-blush-cream">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="bg-white/90 p-8 rounded-2xl shadow-xl border border-soft-pink/20">
+                <blockquote className="font-heading text-2xl md:text-3xl font-light text-charcoal leading-relaxed text-center">
+                  "Я больше не гадкий утёнок.<br/>
+                  Я лебедь, который расправил крылья<br/>
+                  и летит туда, где ему хорошо."
+                </blockquote>
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <div className="relative">
+                <img 
+                  src="/img/94c95834-0114-48c3-98b6-e72d26c7d280.jpg" 
+                  alt="Трансформация лебедя" 
+                  className="w-full h-auto object-cover rounded-2xl shadow-lg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Обновленный блок запросов */}
       <section className="px-6 py-16 bg-blush-cream">
         <div className="max-w-5xl mx-auto">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-center text-charcoal mb-4">
-            С какими запросами ко мне приходят
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-center text-charcoal mb-12">
+            ✨ С какими запросами приходят
           </h2>
-          <p className="font-body text-xl text-center text-charcoal/70 mb-12">
-            Со всем этим я работаю. Вместе мы возвращаем вам уверенность, ценность и свободу быть собой.
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="space-y-6 mb-12">
             {[
-              "Чувствую себя недостаточной и неуверенной",
-              "Боюсь проявляться и говорить о себе",
-              "Постоянно ищу чужого одобрения",
-              "Живу в стыде и страхе, что «я не такая»",
-              "Не умею опираться на себя и свои решения",
-              "Хочу чувствовать ценность, свободу и любовь к себе"
-            ].map((pain, index) => (
-              <Card key={index} className="bg-white/90 border-0 shadow-md hover:shadow-lg transition-all hover:scale-105 border border-soft-pink/10">
+              "«Я потерялась, не знаю, что делать дальше, всё рухнуло».",
+              "«Мне кажется, чтобы заслужить любовь или успех, я должна быть другой».",
+              "«Я устала быть удобной и боюсь признаться, что хочу большего».",
+              "«Я не знаю, кто я без чужих ожиданий».",
+              "«Мне страшно быть слабой. Я боюсь, что если признаюсь себе, что не контролирую всё — потеряю себя»."
+            ].map((request, index) => (
+              <div key={index} className="bg-white/80 p-6 rounded-xl shadow-md border border-soft-pink/20 hover:shadow-lg transition-shadow">
+                <p className="font-body text-lg text-charcoal/90 leading-relaxed">
+                  — {request}
+                </p>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center bg-accent-pink/20 p-8 rounded-2xl border-2 border-accent-pink/40 shadow-lg">
+            <p className="font-heading text-xl md:text-2xl font-semibold text-charcoal">
+              📌 Чаще всего это про одно: <span className="text-accent-pink">быть собой небезопасно.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Новый блок результатов */}
+      <section className="px-6 py-16 bg-rose-mist/20">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-center text-charcoal mb-12">
+            ✨ К чему мы приходим вместе (результаты)
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6 mb-12">
+            {[
+              "Лёгкость: «как будто груз упал с плеч».",
+              "Новый угол зрения: «А что, так можно было?»",
+              "Больше веры в себя и близость с собой.",
+              "Уверенность, спокойствие, благость.",
+              "Смелость перестать соглашаться на меньшее.",
+              "Контакт с собственными желаниями."
+            ].map((result, index) => (
+              <Card key={index} className="bg-white/90 border-0 shadow-md hover:shadow-lg transition-all hover:scale-105 border border-soft-pink/20">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-8 h-8 bg-soft-pink/30 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <Icon name="Heart" size={16} className="text-accent-pink" />
+                    <div className="w-8 h-8 bg-accent-pink/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <Icon name="Star" size={16} className="text-accent-pink" />
                     </div>
                     <p className="font-body text-charcoal/90 leading-relaxed">
-                      {pain}
+                      — {result}
                     </p>
                   </div>
                 </CardContent>
               </Card>
             ))}
           </div>
+          
+          <div className="text-center bg-gradient-to-r from-accent-pink/20 to-dusty-rose/20 p-8 rounded-2xl border-2 border-accent-pink/30 shadow-xl">
+            <p className="font-heading text-xl md:text-2xl font-semibold text-charcoal mb-4">
+              И главный вопрос, с которым женщины уходят:
+            </p>
+            <p className="font-heading text-2xl md:text-3xl font-bold text-accent-pink">
+              «Что я на самом деле хочу?»
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Продукты и услуги */}
-      <section className="px-6 py-16 bg-rose-mist/20">
+      <section className="px-6 py-16 bg-white/50">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-center text-charcoal mb-12">
             Продукты и услуги
@@ -130,9 +202,11 @@ const Index = () => {
                     Личные коуч-сессии для тех, кто хочет глубоко проработать запросы 
                     и получить персональную поддержку.
                   </p>
-                  <Button className="w-full bg-accent-pink hover:bg-accent-pink/90 text-charcoal font-medium rounded-full border border-accent-pink/20 shadow-md">
-                    Выбрать
-                  </Button>
+                  <a href="https://t.me/katy_kes" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full bg-accent-pink hover:bg-accent-pink/90 text-white font-medium rounded-full border border-accent-pink/20 shadow-md">
+                      Выбрать
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
@@ -167,9 +241,11 @@ const Index = () => {
                     Сообщество для тех, кто хочет уверенности, регулярности и мощного прорыва. 
                     Цели, поддержка, энергия и раскрытие.
                   </p>
-                  <Button className="w-full bg-charcoal hover:bg-charcoal/90 text-white font-medium rounded-full shadow-md">
-                    Выбрать
-                  </Button>
+                  <a href="https://t.me/katy_kes" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full bg-charcoal hover:bg-charcoal/90 text-white font-medium rounded-full shadow-md">
+                      Выбрать
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
@@ -199,9 +275,11 @@ const Index = () => {
                     Для женщин, которые хотят начать вести блог, но сталкиваются с внутренними блоками и страхами. 
                     Здесь нет сухого маркетинга — только проявленность и искренность.
                   </p>
-                  <Button className="w-full bg-accent-pink hover:bg-accent-pink/90 text-charcoal font-medium rounded-full border border-accent-pink/20 shadow-md">
-                    Выбрать
-                  </Button>
+                  <a href="https://t.me/katy_kes" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full bg-accent-pink hover:bg-accent-pink/90 text-white font-medium rounded-full border border-accent-pink/20 shadow-md">
+                      Выбрать
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
@@ -219,12 +297,14 @@ const Index = () => {
           <p className="font-body text-xl text-charcoal/80 leading-relaxed">
             Я помогу вам найти внутреннюю опору и раскрыть себя. Давайте начнём этот путь вместе.
           </p>
-          <Button 
-            size="lg" 
-            className="bg-charcoal hover:bg-charcoal/90 text-white font-medium px-10 py-4 rounded-full font-body text-lg shadow-xl hover:shadow-2xl transition-all"
-          >
-            Записаться на бесплатную диагностику
-          </Button>
+          <a href="https://t.me/katy_kes" target="_blank" rel="noopener noreferrer">
+            <Button 
+              size="lg" 
+              className="bg-charcoal hover:bg-charcoal/90 text-white font-medium px-10 py-4 rounded-full font-body text-lg shadow-xl hover:shadow-2xl transition-all"
+            >
+              Записаться на бесплатную диагностику
+            </Button>
+          </a>
         </div>
       </section>
 
@@ -245,7 +325,7 @@ const Index = () => {
                 <Icon name="Instagram" size={24} />
                 <span className="font-body">Instagram</span>
               </a>
-              <a href="#" className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors">
+              <a href="https://t.me/katy_kes" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors">
                 <Icon name="MessageCircle" size={24} />
                 <span className="font-body">Telegram</span>
               </a>
