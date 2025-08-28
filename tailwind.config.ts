@@ -62,11 +62,14 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				'warm-cream': '#E8D5C4',
-				'earthy-brown': '#8B5A3C',
-				'soft-beige': '#F8F4F0',
-				'charcoal': '#2C2C2C',
-				'gold': '#C5A572'
+				// Premium Pink Palette
+				'blush-cream': '#F8FAFC',
+				'soft-pink': '#F2E6F9', 
+				'rose-mist': '#FDF2F8',
+				'dusty-rose': '#E2E8F0',
+				'charcoal': '#374151',
+				'blush-pink': '#FDF2F8',
+				'accent-pink': '#11F5F9'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

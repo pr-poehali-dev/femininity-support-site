@@ -96,16 +96,16 @@
   }
 
   body {
-    @apply bg-soft-beige text-charcoal;
+    @apply bg-blush-cream text-charcoal;
   }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap");
 
 .font-heading {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .font-body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
